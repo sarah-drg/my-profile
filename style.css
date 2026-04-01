@@ -1,0 +1,112 @@
+/*Colors and fonts */
+body {
+  background-color:white;
+  font-family: Helvetica;
+  font-size: 17px;
+  color: white;
+}
+
+h1, h2 {
+  font-family: Helvetica;
+}
+
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+h2 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+a:hover {
+  color : hotpink;
+}
+
+/* Custom design with class (99% of your design) */
+
+.container {
+  width: 700px;
+  margin: 40 px auto;
+}
+.card-white {
+  background: #0D1A63;
+  border: 2px solid white;
+  padding: 50px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0,3);
+  border-radius: 15px;
+  margin: 30px 0px;
+  text-align: center;
+}
+
+div {
+  background: #0D1A63;
+  border: 2px solid white;
+  margin: 10px ;
+  padding: 10px;
+  border-radius: 30px;
+}
+ .img-circle {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+ .btn-pink {
+  background-color: pink;
+  color: white;
+  padding: 15px 2Opx;
+  border-radius: 4px;
+ }
+
+ .btn-pink:hover {
+  background-color: hotpink;
+  color: white;
+ }
+
+
+ .list-inLine {
+   list-style: none;
+   padding-left: 0px;
+ }
+
+ .list-inLine li {
+  display: inline;
+  padding: 10px;
+ }
+
+ .list-inLine i {
+  font-size: 30px;
+ }
+
+ /* Design adjustment using id (1% design remaining) */
+ #introduction p {
+   margin-bottom: 40px;
+ }
+
+ .container {
+   width: 960px;
+   margin: auto;
+   background: white;
+ }
+
+
+
+
+
+
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+
+
+
+
